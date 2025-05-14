@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+h2 {
+
+    color: #35BF73;
+
+}
+
+
+header {
+    background: linear-gradient(#35BF73, #195A36);
+    /* background-image: -o-linear-gradient()  podemsermusado para botar degrade */
+    color: white;
+    margin: 0px;
+    height: 130px;
+
+}
+
+header>h1 {
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.564);
+
+}
+
+header>p {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    max-width: 600px;
+}
+
+/* menu {
+    display: flex;
+} */
+nav {
+    display: flex;
+    background-color: #195A36;
+    padding: 5px;
+
+    /* margin: 10px;
+    padding: 10px; */
+
+}
+
+a {
+
+
+
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    margin: 20px 0px 10px 0px;
+    transition-duration: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding: 10px; */
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline #35BF73;
+    background-color: #84E1AD;
+    border-radius: 5px;
+
+
+
+}
+
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.392);
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    min-width: 350px;
+    max-width: 1000px;
+
+
+
+}
+
+main p {
+    letter-spacing: 3px;
+    text-indent: 2px;
+    text-align: justify;
+
+
+
+}
+
+main img.pequena {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+img {
+
+    width: 100%;
+}
+
+.vd {
+
+    background-color: #3b895e;
+    border-radius: 2px 2px 0px 0px;
+    text-align: center;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.vd>iframe {
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:
+        100%;
+}
+
+
+aside>h2 {
+    color: black;
+    background-color: #549a72;
+    border-radius: 2px;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    box-shadow: 10px 10 10px black;
+}
+
+.lista {
+    background-color: #35BF73;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 10;
+
+
+}
+
+
+
+.lista>.lis {
+    display: block;
+    padding: 10px;
+    columns: 2;
+
+
+}
+
+
+.lista>p {
+    padding: 10px;
+
+
+}
+
+.lis>li {
+    list-style: none;
+    display: block;
+}
+
+#fim{
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+footer {
+    display: block;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    /* width: 80%; */
+    margin: auto;
+
+    margin-top: 5px;
+    padding: 10px;
+
+}
